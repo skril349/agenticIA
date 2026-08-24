@@ -175,6 +175,33 @@ cython_debug/
 
 .DS_Store
 
+# Node.js dependencies and package-manager caches
+node_modules/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.pnpm-store/
+
+# JavaScript / TypeScript build output
+.next/
+out/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+
+# Local environment files (keep example templates versioned)
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
 finale/.bedrock_agentcore.yaml
 finale/Dockerfile
 finale/.dockerignore
