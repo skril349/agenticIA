@@ -206,3 +206,7 @@ finale/.bedrock_agentcore.yaml
 finale/Dockerfile
 finale/.dockerignore
 .vercel
+
+
+lambda-deployment.zip
+lambda-package/
